@@ -187,7 +187,7 @@ const Home: NextPage = () => {
          
 
             <br/>
-            <p className="text-slate-500" style={{textAlign: "center"}}>我佛慈悲，普渡众生</p>
+            <p className="text-slate-500" style={{textAlign: "center"}}>公正公平，为民请命</p>
 
           </div>
         </div>
