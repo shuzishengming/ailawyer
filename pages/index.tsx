@@ -182,7 +182,7 @@ const Home: NextPage = () => {
                
               <a
                 className="text-blue-500 hover:text-blue-700"
-                href="http://wz.aidaohang.com.cn/?f=aifozu"
+                href="http://wz.aidaohang.com.cn/?f=ailvsuo"
                 target="_blank"
                 rel="noopener noreferrer"
               >更多免费chatgpt：AI导航</a>  
