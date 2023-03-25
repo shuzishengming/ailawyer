@@ -100,30 +100,25 @@ const Home: NextPage = () => {
     <div className="flex max-w-5xl mx-auto flex-col items-center justify-center py-2 min-h-screen">
       <Head>
         <title>{t('title')}</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/aifozu-icon.png" />
+      
+     
       </Head>
 
       <Header />
-      <main className="flex flex-1 w-full flex-col items-center justify-center text-center px-4 mt-12 sm:mt-20">
+      <main className="flex flex-1 w-full flex-col items-center  text-center px-4 mt-8 ">
         
 
 
-      <a
-          className="flex max-w-fit items-center justify-center space-x-2 rounded-full border border-gray-300 bg-white px-4 py-2 text-sm text-gray-600 shadow-md transition-colors hover:bg-gray-100 mb-5"
-          href="https://github.com/guaguaguaxia/weekly_report"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Github />
-          <p>Star on GitHub</p>
-        </a>
+    
 
 
 
-        <h1 className="sm:text-6xl text-4xl max-w-2xl font-bold text-slate-900">
-          {t('description1')} <br></br><div className=" px-4 py-2 sm:mt-3 mt-8  w-full"></div>{t('description2')}
-        </h1>
-        <p className="text-slate-500 mt-5">{t('slogan')}</p>
+        <h1 className="sm:text-3xl text-4xl max-w-2xl font-bold text-slate-900">
+          {t('description1')}<div className=" px-4 py-2 sm:mt-3   w-full"></div> {t('description2')}
+          </h1>
+         <div className=" px-4 py-2 sm:mt-3   w-full"></div> 
+        
 
 
         <div className="max-w-xl w-full">
@@ -147,18 +142,7 @@ const Home: NextPage = () => {
             </>)
           }
 
-          <div className="flex mt-10 items-center space-x-3">
-            <Image
-              src="/1-black.png"
-              width={30}
-              height={30}
-              alt="1 icon"
-              className="mb-5 xs:mb-0"
-            />
-            <p className="text-left font-medium">
-              {t('step1')}{" "}
-            </p>
-          </div>
+          
 
           <textarea
             value={chat}
@@ -190,21 +174,20 @@ const Home: NextPage = () => {
           <br></br>
           <div className="mt-1 items-center space-x-3">
             <span className="text-slate-200">
-                {t('privacyPolicy1')}
+               
               <a
-                className="text-blue-200 hover:text-blue-400"
-                href="https://github.com/guaguaguaxia/weekly_report/blob/main/privacy.md"
+                className="text-blue-500 hover:text-blue-700"
+                href="http://wz.aidaohang.com.cn/?f=aifozu"
                 target="_blank"
                 rel="noopener noreferrer"
-              >{' '}{t('privacyPolicy2')}</a>
+              >更多免费chatgpt：AI导航</a>  
             </span>
             <br></br>
             
-            <br/>
-            <p className="text-slate-500" style={{textAlign: "center"}}>本站仅于周一、五、六、日免费使用，其余时间请自备 OpenAI API Key，有任何问题请联系我的邮箱 guaguaguaxia@Gmail.com，我会一一回复</p>
+         
 
             <br/>
-            <p className="text-slate-500" style={{textAlign: "center"}}>由于费用过高，本站一分钟内仅接受 20 次请求，迟迟不能生成周报是因为暂时限流，请收藏此网站后在低峰期使用。</p>
+            <p className="text-slate-500" style={{textAlign: "center"}}>我佛慈悲，普渡众生</p>
 
           </div>
         </div>
@@ -219,17 +202,13 @@ const Home: NextPage = () => {
             <motion.div className="space-y-10 my-10">
               {generatedChat && (
                 <>
-                  <div>
-                    <h2 className="sm:text-4xl text-3xl font-bold text-slate-900 mx-auto">
-                      {t('simplifiedContent')}
-                    </h2>
-                  </div>
+                  
                   <div className="space-y-8 flex flex-col items-center justify-center max-w-xl mx-auto">
                     <div
                       className="bg-white rounded-xl shadow-md p-4 hover:bg-gray-100 transition cursor-copy border"
                       onClick={() => {
                         navigator.clipboard.writeText(generatedChat.trim());
-                        toast("已复制完整周报内容", {
+                        toast("已复制佛祖的回答", {
                           icon: "✂️",
                         });
                       }}
