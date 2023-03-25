@@ -101,7 +101,12 @@ const Home: NextPage = () => {
       <Head>
         <title>{t('title')}</title>
         <link rel="icon" href="/aifozu-icon.png" />
-      
+       <script dangerouslySetInnerHTML={{__html: `(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?0275b87b8f9414fb17a57d91cc4b2294";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();`}} /> 
      
       </Head>
 
@@ -208,7 +213,7 @@ const Home: NextPage = () => {
                       className="bg-white rounded-xl shadow-md p-4 hover:bg-gray-100 transition cursor-copy border"
                       onClick={() => {
                         navigator.clipboard.writeText(generatedChat.trim());
-                        toast("已复制佛祖的回答", {
+                        toast("已复制律师的建议", {
                           icon: "✂️",
                         });
                       }}
