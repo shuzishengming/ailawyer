@@ -8,7 +8,7 @@ export default function Footer() {
       
       <div>
         作者:台风(chatgpt魔法师 <a
-          href="http://wz.aidaohang.com.cn/taifeng/?f=tianzhiyuan"
+          href="http://wz.aidaohang.com.cn/taifeng/?f=ailvsuo"
           target="_blank"
           rel="noreferrer"
           className="text-blue-500 hover:text-blue-700 hover:underline transition underline-offset-2"
