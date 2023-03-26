@@ -191,8 +191,8 @@ const Home: NextPage = () => {
             
          
 
-            <br/>
-            <p className="text-slate-500" style={{textAlign: "center"}}>公正公平，为民请命</p>
+        
+           
 
           </div>
         </div>
@@ -236,6 +236,8 @@ const Home: NextPage = () => {
             </motion.div>
           </AnimatePresence>
         </ResizablePanel>
+        
+         <p className="text-slate-500 items-center">公正公平，为民请命</p>
       </main>
       <Footer />
     </div>
