@@ -237,7 +237,7 @@ const Home: NextPage = () => {
           </AnimatePresence>
         </ResizablePanel>
         
-         <p className="text-slate-500 items-center">公正公平，为民请命</p>
+         <p className="text-slate-500 items-center">公平公正，为民请命</p>
       </main>
       <Footer />
     </div>
