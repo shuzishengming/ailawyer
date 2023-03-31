@@ -193,7 +193,7 @@ const Home: NextPage = () => {
                &nbsp;&nbsp;
               <a
                 className="text-blue-500 hover:text-blue-700"
-                href="http://wz.aidaohang.com.cn/ailayer-chatgpt/"
+                href="http://wz.aidaohang.com.cn/ailayer-chatgpt/?f=ailawyer"
                 target="_blank"
                 rel="noopener noreferrer"
               >高级版</a>   
