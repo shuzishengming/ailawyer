@@ -185,7 +185,20 @@ const Home: NextPage = () => {
                 href="http://wz.aidaohang.com.cn/?f=ailvsuo"
                 target="_blank"
                 rel="noopener noreferrer"
-              >更多免费chatgpt：AI导航</a>  
+              >AI导航</a>   
+              
+              
+            </span>
+             <span className="text-slate-200">
+               &nbsp;&nbsp;
+              <a
+                className="text-blue-500 hover:text-blue-700"
+                href="http://wz.aidaohang.com.cn/ailayer-chatgpt/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >高级版</a>   
+              
+              
             </span>
             <br></br>
             
