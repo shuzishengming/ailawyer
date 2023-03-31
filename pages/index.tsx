@@ -200,6 +200,18 @@ const Home: NextPage = () => {
               
               
             </span>
+            
+               <span className="text-slate-200">
+               &nbsp;&nbsp;
+              <a
+                className="text-blue-500 hover:text-blue-700"
+                href="hhttp://dz.imurl.com.cn/go.html?q=gptyyqun"
+                target="_blank"
+                rel="noopener noreferrer"
+              >交流群</a>   
+              
+             
+            </span>
             <br></br>
             
          
