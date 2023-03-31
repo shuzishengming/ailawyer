@@ -205,7 +205,7 @@ const Home: NextPage = () => {
                &nbsp;&nbsp;
               <a
                 className="text-blue-500 hover:text-blue-700"
-                href="hhttp://dz.imurl.com.cn/go.html?q=gptyyqun"
+                href="http://dz.imurl.com.cn/go.html?q=gptyyqun"
                 target="_blank"
                 rel="noopener noreferrer"
               >交流群</a>   
