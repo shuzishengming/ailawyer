@@ -214,13 +214,14 @@ const Home: NextPage = () => {
             </span>
           
             
-         <br/>
+       
 
         
            
 
           </div>
         </div>
+          <br/>
         <Toaster
           position="top-center"
           reverseOrder={false}
