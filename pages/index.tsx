@@ -212,7 +212,7 @@ const Home: NextPage = () => {
               
              
             </span>
-            <br></br>
+            <br>
             
          
 
@@ -263,7 +263,7 @@ const Home: NextPage = () => {
         </ResizablePanel>
         
          <p className="text-slate-500 items-center">公平公正，为民请命</p>
-        <br/>  <br/>
+        <br/>  
          <p className="text-slate-500 items-center">由于使用人数较多，回答可能会缓慢，如果尝试多次都没反应，请加群反馈。欢迎加群交流，我很乐意为你答疑解惑，一起同行。</p>
       </main>
       <Footer />
