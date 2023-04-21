@@ -214,7 +214,7 @@ const Home: NextPage = () => {
             </span>
           
             
-         
+         <br/>
 
         
            
@@ -229,7 +229,7 @@ const Home: NextPage = () => {
         <hr className="h-px bg-gray-700 border-1 dark:bg-gray-700" />
         <ResizablePanel>
           <AnimatePresence mode="wait">
-            <motion.div className="space-y-10 my-10">
+            <motion.div className="space-y-10">
               {generatedChat && (
                 <>
                   
