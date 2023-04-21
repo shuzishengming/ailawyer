@@ -212,7 +212,7 @@ const Home: NextPage = () => {
               
              
             </span>
-            <br/>
+          
             
          
 
