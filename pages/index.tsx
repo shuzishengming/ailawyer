@@ -42,7 +42,7 @@ const Home: NextPage = () => {
       return
     }
     if (chat == ""){
-      toast.error(t("CONTENT_NULL_ERROR"))
+      toast.error(t("请输入内容"))
       setLoading(false)
       return
     }
@@ -164,7 +164,7 @@ const Home: NextPage = () => {
               className="bg-black rounded-xl text-white font-medium px-4 py-2 sm:mt-5 mt-8 hover:bg-black/80 w-full"
               onClick={(e) => generateChat(e)}
             >
-              {t('simplifierButton')} &rarr;
+              {t('simplifierButton')} 
             </button>
           )}
           {loading && (
@@ -263,6 +263,8 @@ const Home: NextPage = () => {
         </ResizablePanel>
         
          <p className="text-slate-500 items-center">公平公正，为民请命</p>
+        <br/>  <br/>
+         <p className="text-slate-500 items-center">由于使用人数较多，回答可能会缓慢，如果尝试多次都没反应，请加群反馈。欢迎加群交流，我很乐意为你答疑解惑，一起同行。</p>
       </main>
       <Footer />
     </div>
