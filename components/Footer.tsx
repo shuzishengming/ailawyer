@@ -18,7 +18,7 @@ export default function Footer() {
       </div>
       <div className="flex space-x-4 pb-4 sm:pb-0">
        Powered by{" "}
-       Ailvsuo.com.cn
+       ailvsuo.com.cn
       </div>
     </footer>
   );
