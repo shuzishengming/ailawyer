@@ -196,7 +196,7 @@ const Home: NextPage = () => {
                 href="http://dz.weurl.com.cn/go.html?q=aichat_yy"
                 target="_blank"
                 rel="noopener noreferrer"
-              >聊天版</a>   
+              >高级版</a>   
               
               
             </span>
