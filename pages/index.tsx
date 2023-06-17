@@ -178,17 +178,16 @@ const Home: NextPage = () => {
           <br></br>
           <br></br>
           <div className="mt-1 items-center space-x-3">
-            <span className="text-slate-200">
-               
+            
+            <span className="text-slate-200">`
               <a
                 className="text-blue-500 hover:text-blue-700"
                 href="http://wz.aidaohang.com.cn/?f=ailvsuo"
                 target="_blank"
                 rel="noopener noreferrer"
               >AI导航</a>   
-              
-              
             </span>
+            
              <span className="text-slate-200">
                &nbsp;&nbsp;
               <a
@@ -196,9 +195,7 @@ const Home: NextPage = () => {
                 href="http://dz.weurl.com.cn/go.html?q=aichat_yy"
                 target="_blank"
                 rel="noopener noreferrer"
-              >高级版</a>   
-              
-              
+              >高级版</a>     
             </span>
             
                <span className="text-slate-200">
@@ -208,9 +205,7 @@ const Home: NextPage = () => {
                 href="http://dz.imurl.com.cn/go.html?q=gptyyqun"
                 target="_blank"
                 rel="noopener noreferrer"
-              >交流群</a>   
-              
-             
+              >交流群</a>         
             </span>
           
             
@@ -239,7 +234,7 @@ const Home: NextPage = () => {
                       className="bg-white rounded-xl shadow-md p-4 hover:bg-gray-100 transition cursor-copy border"
                       onClick={() => {
                         navigator.clipboard.writeText(generatedChat.trim());
-                        toast("已复制律师的建议", {
+                        toast("已复制内容", {
                           icon: "✂️",
                         });
                       }}
