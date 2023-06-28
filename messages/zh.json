@@ -5,7 +5,7 @@
     "description2": "专业律师在线答疑",
     "placeholder": "比如:公司开除员工不赔偿怎么办",
     "simplifierButton": "咨询AI律师",
-    "switchLocale": "已废弃",
+    "switchLocale": "",
     "deployWiki": "已废弃",
     "slogan": "已废弃",
     "step0": "粘贴你的 OpenAI API Key",
