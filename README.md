@@ -2,7 +2,7 @@
 
 
 ## AI律所，专业律师在线答疑。
-
+由《ChatGPT产品商业俱乐部》提供服务，如有疑问或需要交流，联系微信：taifenghulala  （台风-GPT魔法师）
 
 
 ## 这个项目是如何工作的
@@ -36,24 +36,7 @@ npm run dev
 
 ## Docker 部署
 
-```bash
-docker run -d -p 3000:3000 --name weekly_report-docker -e OPENAI_API_KEY=sk-xxxxx ihxrainbow/weekly_report-docker
-```
-
-docker-compose.yml
-```yaml
-services:
-  weekly_report-docker:
-    container_name: weekly_report-docker
-    ports:
-      - '3000:3000'
-    image: ihxrainbow/weekly_report-docker
-    environment:
-      # API key
-      - OPENAI_API_KEY=sk-xxxxx
-```
-
-<!-- https://www.seotraininglondon.org/gpt3-business-email-generator/ -->
+暂未提供
 
 
 
